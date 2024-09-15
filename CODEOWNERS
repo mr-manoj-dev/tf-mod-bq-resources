@@ -1,0 +1,14 @@
+# This is a sample CODEOWNERS file
+# It specifies the owners for each file and directory in the repository
+
+# Assign all files in the "docs" directory to the documentation team
+/docs/*      @documentation-team
+
+# Assign the "README.md" file to the project lead
+/README.md   @project-lead
+
+# Assign all files in the "src" directory to the development team
+/src/*      @development-team
+
+# Assign the "tests" directory to the QA team
+/tests/*    @qa-team
