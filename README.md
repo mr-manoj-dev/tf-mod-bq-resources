@@ -4,10 +4,10 @@ Terraform to provision BigQuery resources like datasets and tables
 
 
 ```shell
-export PROJECT_ID="burner-mankumar24-02"
-export LOCATION="us-central1"
-export TF_STATE_BUCKET="mk-ps-us-central1-stb-01"
-export TF_STATE_PREFIX="bq-resources"
+export PROJECT_ID="<gcp_project_id>"
+export LOCATION="<location>"
+export TF_STATE_BUCKET="<gcp_storage_bucket_name>"
+export TF_STATE_PREFIX="<terraform_state_prefix>"
 export WORKSPACE="test_workspace"
 export INFRA_ROOT_FOLDER="infra"
 export MODULE_NAME="datasets_and_tables"
