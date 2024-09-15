@@ -1,0 +1,17 @@
+[
+  {
+    "name": "product_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "cat_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "product_name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

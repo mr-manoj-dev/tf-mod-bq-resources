@@ -1,0 +1,17 @@
+[
+  {
+    "name": "cat_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "cat_name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "cat_details",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

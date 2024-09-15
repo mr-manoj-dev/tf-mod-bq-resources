@@ -1,0 +1,16 @@
+# This is a sample CODEOWNERS file
+# It specifies the owners for each file and directory in the repository
+
+# Assign all files in the "scripts" directory to the documentation team
+/scripts/*      @mr-manoj-dev
+
+# Assign the "README.md" file to the project lead
+/README.md   @mr-manoj-dev
+
+# Assign all files in the "infra" directory to the development team
+/infra/*      @mr-manoj-dev
+
+# files
+terraform-apply-modules.yaml    @mr-manoj-dev
+terraform-destroy-modules.yaml    @mr-manoj-dev
+terraform-plan-modules.yaml    @mr-manoj-dev

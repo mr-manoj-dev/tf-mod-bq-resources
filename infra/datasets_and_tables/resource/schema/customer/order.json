@@ -1,0 +1,42 @@
+[
+  {
+    "name": "order_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "cust_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "order_date",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "total_items",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "total_amount",
+    "type": "FLOAT",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "discount",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "grand_total",
+    "type": "FLOAT",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "payment_type",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

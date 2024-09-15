@@ -1,0 +1,70 @@
+[
+  {
+    "datasetId": "customer_bq_ds",
+    "datasetRegion": "us-central1",
+    "datasetFriendlyName": "Dataset contains tables customer, order, address etc.",
+    "datasetDescription": "Dataset contains tables customer, order, address etc.",
+    "tables": [
+      {
+        "tableId": "customer",
+        "tableSchemaPath": "resource/schema/customer/customer.json",
+        "clustering": [
+          "first_name",
+          "last_name",
+          "email",
+          "contact_number"
+        ]
+      },
+      {
+        "tableId": "address",
+        "tableSchemaPath": "resource/schema/customer/address.json",
+        "clustering": [
+          "post_code",
+          "city",
+          "state",
+          "country"
+        ]
+      },
+      {
+        "tableId": "order",
+        "tableSchemaPath": "resource/schema/customer/order.json",
+        "partitionType": "DAY",
+        "partitionField": "order_date",
+        "clustering": [
+          "cust_id",
+          "payment_type"
+        ]
+      }
+    ]
+  },
+  {
+    "datasetId": "product_bq_ds",
+    "datasetRegion": "us-central1",
+    "datasetFriendlyName": "Dataset contains tables category, product, product_details etc.",
+    "datasetDescription": "Dataset contains tables category, product, product_details etc.",
+    "tables": [
+      {
+        "tableId": "category",
+        "tableSchemaPath": "resource/schema/product/category.json",
+        "clustering": [
+          "cat_name"
+        ]
+      },
+      {
+        "tableId": "product",
+        "tableSchemaPath": "resource/schema/product/product.json",
+        "clustering": [
+          "cat_id",
+          "product_name"
+        ]
+      },
+      {
+        "tableId": "product_details",
+        "tableSchemaPath": "resource/schema/product/product_details.json",
+        "clustering": [
+          "product_id"
+        ]
+      }
+    ]
+  }
+]

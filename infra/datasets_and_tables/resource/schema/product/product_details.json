@@ -1,0 +1,33 @@
+[
+  {
+    "name": "product_detail_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "product_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "product_image_url",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "unit_price",
+    "type": "FLOAT",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "size",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "color",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]
+
